@@ -12,7 +12,7 @@
 
         const ul = document.getElementById('authors'); // Get the list where we will place our authors
         const url = 'https://randomuser.me/api/?results=10'; // Get 10 random users        
-        fetch(url)
+        fetch(url)//come fare chiamate a servizi rest 
             .then((resp) => resp.json()) // Transform the data into json
             .then(function(data) {
                 // Here you get the data to modify as you please

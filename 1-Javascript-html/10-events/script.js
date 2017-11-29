@@ -18,7 +18,6 @@ function Car(type, model, color) {
 
 var fiat500bianca = new Car('Fiat', '500', 'white');
 var fiat500rossa = new Car('Fiat', '500', 'red');
-
 function showCar() {
     alert(fiat500rossa.description());
 }
